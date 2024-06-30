@@ -1,0 +1,78 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "Yekan";
+  src: url("../Font/Yekan.eot"), format("eot"),
+    url("../Font/Yekan.ttf") format("truetype"),
+    url("../Font/Yekan.woff") format("woff"),
+    url("../Font/Yekan.woff2") format("woff2");
+}
+
+body {
+  font-family: "Yekan";
+  direction: rtl;
+}
+
+.container {
+  width: 1250px;
+  margin: auto;
+}
+
+/* header */
+
+header {
+  width: 100%;
+}
+
+header nav {
+  width: 100%;
+  height: 60px;
+}
+
+header nav .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+header nav .nav-right {
+  display: flex;
+}
+header nav .nav-right ul {
+  display: flex;
+}
+
+header nav .nav-right ul li {
+  margin: 0 10px;
+}
+
+header nav .nav-right ul li a{
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+header nav .nav-left {
+  display: flex;
+  align-items: center;
+}
+
+header nav .nav-left ul {
+  display: flex;
+  margin-left: 30px;
+}
+
+header nav .nav-left ul li{
+  margin: 0 10px;
+}
+
+header nav .nav-left ul li a svg{
+  font-size: 18px;
+  color: black;
+}
+
+header nav .nav-left img {
+  width: 70px;
+}
