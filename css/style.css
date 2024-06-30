@@ -70,9 +70,51 @@ header nav .nav-left ul li{
 
 header nav .nav-left ul li a svg{
   font-size: 18px;
-  color: black;
+  color: rgb(110, 64, 129);
 }
 
 header nav .nav-left img {
-  width: 70px;
+  width: 60px;
+  margin-top: 3px;
+}
+
+header #slide {
+  background-image: url(../images/slide.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 580px;
+}
+
+header #slide .slider{
+  position: relative;
+  width: 100%;
+  height: 580px;
+}
+
+header #slide .slider span{
+  position: absolute;
+  left: 33%;
+  top: 35%;
+  font-size: 110px;
+  color: #e6e2e2;
+  font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+header #slide .slider .slide-desciptin{
+  position: absolute;
+  left: 10px;
+  top: 35%;
+}
+
+header #slide .slider .slide-desciptin h1{
+  font-size: 95px;
+  margin-right: 150px;
+  color: #696363;
+  margin-top: 15px;
+}
+
+header #slide .slider .slide-desciptin h2{
+  font-size: 55px;
+  color: #333131;
 }
