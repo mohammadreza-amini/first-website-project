@@ -118,3 +118,79 @@ header #slide .slider .slide-desciptin h2{
   font-size: 55px;
   color: #333131;
 }
+
+/* hanging-lamp */
+
+#hanging-lamp{
+  width: 100%;
+  background-color: rgba(185, 182, 173, 0.897);
+  position: relative;
+}
+
+#hanging-lamp .test{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 90%;
+  background-color: white;
+}
+
+#hanging-lamp .hanginig-lamp{
+  display: flex;
+  justify-content: space-between;
+}
+
+#hanging-lamp .hanginig-lamp .hanging-right{
+  display: flex;
+  background-color: #fff;
+}
+
+#hanging-lamp .hanginig-lamp .hanging-right .description-right{
+  position: relative;
+}
+
+#hanging-lamp .hanginig-lamp .hanging-right .description-right h1{
+  font-size: 38px;
+  margin-top: 35px;
+}
+
+#hanging-lamp .hanginig-lamp .hanging-right .description-right p{
+  margin-top: 15px;
+  font-size: 21px;
+  margin-bottom: 25px;
+}
+
+#hanging-lamp .hanginig-lamp .hanging-right .description-right a{
+  text-decoration: none;
+  background-color: rgba(185, 182, 173, 0.897);
+  padding: 10px 10px;
+  color: #272525;
+  margin-top: 10px;
+  position: absolute;
+  left: 20px;
+}
+
+#hanging-lamp .hanginig-lamp .hanging-right .img-right img{
+  width: 500px;
+  height: 220px;
+}
+
+#hanging-lamp .hanginig-lamp .hanging-left{
+  display: flex;
+  align-items: center;
+}
+
+#hanging-lamp .hanginig-lamp .hanging-left .description-left{
+  width: 100%;
+}
+
+#hanging-lamp .hanginig-lamp .hanging-left h1{
+  font-size: 38px;
+  margin-top: 10px;
+}
+
+#hanging-lamp .hanginig-lamp .hanging-left h2{
+font-size: 38px;
+margin-top: 20px;
+}
