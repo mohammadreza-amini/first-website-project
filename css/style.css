@@ -144,6 +144,7 @@ header #slide .slider .slide-desciptin h2{
 #hanging-lamp .hanginig-lamp .hanging-right{
   display: flex;
   background-color: #fff;
+  width: 65%;
 }
 
 #hanging-lamp .hanginig-lamp .hanging-right .description-right{
@@ -158,7 +159,7 @@ header #slide .slider .slide-desciptin h2{
 #hanging-lamp .hanginig-lamp .hanging-right .description-right p{
   margin-top: 15px;
   font-size: 21px;
-  margin-bottom: 25px;
+  margin-bottom: 7px;
 }
 
 #hanging-lamp .hanginig-lamp .hanging-right .description-right a{
@@ -179,6 +180,8 @@ header #slide .slider .slide-desciptin h2{
 #hanging-lamp .hanginig-lamp .hanging-left{
   display: flex;
   align-items: center;
+  width: 35%;
+  text-align: center;
 }
 
 #hanging-lamp .hanginig-lamp .hanging-left .description-left{
@@ -193,4 +196,64 @@ header #slide .slider .slide-desciptin h2{
 #hanging-lamp .hanginig-lamp .hanging-left h2{
 font-size: 38px;
 margin-top: 20px;
+}
+
+
+
+/* hanging-lamp-two */
+
+#hanging-lamp-two{
+  width: 100%;
+  height: 600px;position: relative;
+}
+
+#hanging-lamp-two .test-two{
+  background-image: url(../images/hang.jpg);
+  position: absolute;
+  background-size: cover;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 36%;
+}
+
+#hanging-lamp-two .hanging-lamp-two{
+  display: flex;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hanging-two-right{
+  width: 65.2%;
+  height: 600px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hanging-two-left{
+  width: 34.8%;
+  height: 600px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hanging-two-left ul{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hanging-two-left ul li{
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hanging-two-left ul li img{
+  width: 250px;
+  height: 200px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hanging-two-left ul li h3{
+  margin: 10px;
+  margin-right: 40px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hanging-two-left ul li h5{
+   margin-right: 35px;
 }
