@@ -44,7 +44,6 @@
             <div id="slide">
                 <div class="slider">
                     <span>2024</span>
-
                     <div class="slide-desciptin">
                         <h2>مجموعه مبلمان</h2>
                         <h1>مدرن مبل</h1>
@@ -167,7 +166,48 @@
             </div>
         </div>
     </section>
+
+    <section id="counters">
+        <div class="container">
+            <div class="counters">
+                <div class="counters-item">
+                    <i class="fa-solid fa-box-archive"></i>
+                    <div class="counter">2000</div>
+                    <h5>محصولات</h5>
+                </div>
+                <div class="counters-item">
+                    <i class="fa-solid fa-truck-front"></i>
+                    <div class="counter">6548</div>
+                    <h5>مشتری</h5>
+                </div>
+                <div class="counters-item">
+                    <i class="fa-solid fa-users"></i>
+                    <div class="counter">9317</div>
+                    <h5>اعضا</h5>
+                </div>
+                <div class="counters-item">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <div class="counter">20693</div>
+                    <h5>سفارش</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
     <script src="./js/all.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+                $('.counter').counterUp({
+                    delay: 30,
+                    time: 2000
+                });
+            });
+    </script>
+
 </body>
 
 </html>

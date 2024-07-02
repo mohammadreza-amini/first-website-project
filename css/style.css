@@ -306,9 +306,9 @@ margin-top: 20px;
 
 #sofa .sofa .sofa-left .description-left a{
   text-decoration: none;
-  background-color: rgba(185, 182, 173, 0.897);
+  background-color: #294152;
   padding: 10px 10px;
-  color: #272525;
+  color: #e7dede;
   margin-top: 10px;
   position: absolute;
   left: 20px;
@@ -398,4 +398,34 @@ margin-top: 20px;
 
 #sofa-two .sofa-two .sofa-two-right ul li h5{
    margin-right: 35px;
+}
+
+/* counters */
+
+#counters{
+  width: 100%;
+  background-color: rgb(46, 124, 124);
+  padding: 60px 0;
+}
+
+#counters .counters{
+  width: 100%;
+  display: flex;
+}
+
+#counters .counters .counters-item{
+ width: 25%;
+ text-align: center;
+}
+
+#counters .counters .counters-item svg{
+  font-size: 33px;
+}
+#counters .counters .counters-item .counter{
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+#counters .counters .counters-item h5{
+  font-size: 18px;
 }
